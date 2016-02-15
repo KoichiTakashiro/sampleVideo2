@@ -12,6 +12,10 @@
 		C1CCB7E91C6F284200CC2CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CCB7E71C6F284200CC2CEF /* Main.storyboard */; };
 		C1CCB7EB1C6F284200CC2CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CCB7EA1C6F284200CC2CEF /* Assets.xcassets */; };
 		C1CCB7EE1C6F284200CC2CEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1CCB7EC1C6F284200CC2CEF /* LaunchScreen.storyboard */; };
+		C1CCB7F61C6F325000CC2CEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CCB7F51C6F325000CC2CEF /* AVFoundation.framework */; };
+		C1CCB7F81C6F360700CC2CEF /* recordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCB7F71C6F360700CC2CEF /* recordViewController.swift */; };
+		C1CCB81A1C7025EC00CC2CEF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CCB8191C7025EC00CC2CEF /* AssetsLibrary.framework */; };
+		C1CCB8401C70B8DC00CC2CEF /* checkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CCB83F1C70B8DC00CC2CEF /* checkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C1CCB7EA1C6F284200CC2CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CCB7ED1C6F284200CC2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1CCB7EF1C6F284200CC2CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CCB7F51C6F325000CC2CEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C1CCB7F71C6F360700CC2CEF /* recordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recordViewController.swift; sourceTree = "<group>"; };
+		C1CCB8191C7025EC00CC2CEF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C1CCB83F1C70B8DC00CC2CEF /* checkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CCB81A1C7025EC00CC2CEF /* AssetsLibrary.framework in Frameworks */,
+				C1CCB7F61C6F325000CC2CEF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +48,8 @@
 		C1CCB7D71C6F284100CC2CEF = {
 			isa = PBXGroup;
 			children = (
+				C1CCB8191C7025EC00CC2CEF /* AssetsLibrary.framework */,
+				C1CCB7F51C6F325000CC2CEF /* AVFoundation.framework */,
 				C1CCB7E21C6F284100CC2CEF /* sampleVideo2 */,
 				C1CCB7E11C6F284100CC2CEF /* Products */,
 			);
@@ -56,6 +68,8 @@
 			children = (
 				C1CCB7E31C6F284100CC2CEF /* AppDelegate.swift */,
 				C1CCB7E51C6F284100CC2CEF /* ViewController.swift */,
+				C1CCB83F1C70B8DC00CC2CEF /* checkViewController.swift */,
+				C1CCB7F71C6F360700CC2CEF /* recordViewController.swift */,
 				C1CCB7E71C6F284200CC2CEF /* Main.storyboard */,
 				C1CCB7EA1C6F284200CC2CEF /* Assets.xcassets */,
 				C1CCB7EC1C6F284200CC2CEF /* LaunchScreen.storyboard */,
@@ -137,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1CCB7E61C6F284100CC2CEF /* ViewController.swift in Sources */,
+				C1CCB8401C70B8DC00CC2CEF /* checkViewController.swift in Sources */,
 				C1CCB7E41C6F284100CC2CEF /* AppDelegate.swift in Sources */,
+				C1CCB7F81C6F360700CC2CEF /* recordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				C1CCB7F41C6F284200CC2CEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
